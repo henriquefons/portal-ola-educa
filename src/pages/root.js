@@ -1,10 +1,13 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Home/home';
 
 const Root = () => (
-  <>
-    <h1>Opa</h1>
-    <p>Olá mundo</p>
-  </>
+  <Router>
+    <Switch>
+      <Route path="/" component={Home} />
+    </Switch>
+  </Router>
 );
 
 export default Root;
