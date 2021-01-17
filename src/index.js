@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Root from './pages/root';
 
-ReactDOM.render(<div>Hello Word</div>, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById('root'));
