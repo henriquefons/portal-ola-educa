@@ -1,0 +1,14 @@
+.row {
+  margin: 0;
+}
+
+.conhecaasmet-containerlist {
+  min-height: 350px;
+  background-color: #ccd9ff;
+}
+
+.conhecaasmet-containerlist h4 {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ccd9ff;
+}
