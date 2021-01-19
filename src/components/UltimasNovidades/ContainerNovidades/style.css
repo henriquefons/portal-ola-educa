@@ -1,0 +1,14 @@
+.row {
+  margin: 0;
+}
+
+.components-ultimasnovidades-containernovidades {
+  min-height: 350px;
+  background-color: #ccd9ff;
+}
+
+.components-ultimasnovidades-containernovidades h4 {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ccd9ff;
+}
