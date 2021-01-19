@@ -1,10 +1,15 @@
 .components-contadormet-containerlist {
   min-height: 280px;
-  background-color: #9DBDEB;
+  background-color: #B9D0F0;
 }
 .components-contadormet-containerlist h4 {
   margin: 0;
   padding: 20px 0;
 }
 
-
+.components-contadormet-containerlist__col {
+  height: 340px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

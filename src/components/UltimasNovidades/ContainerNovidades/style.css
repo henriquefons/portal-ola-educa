@@ -1,5 +1,6 @@
 .row {
   margin: 0;
+  padding: 0 50px;
 }
 
 .components-ultimasnovidades-containernovidades {
@@ -10,5 +11,6 @@
 .components-ultimasnovidades-containernovidades h4 {
   margin: 0;
   padding: 20px 0;
+  font-weight: 500;
   background-color: #ccd9ff;
 }

@@ -5,7 +5,7 @@ import MyFooter from '../../components/Footer/footer';
 import Header from '../../components/Header/header';
 import NavBar from '../../components/NavBar/navbar';
 import UltimasNovidades from '../../components/UltimasNovidades/ContainerNovidades/containernovidades';
-import ComponentParallax from '../../components/Parallax/parallax';
+// import ComponentParallax from '../../components/Parallax/parallax';
 import './style.css';
 
 const Home = () => (
@@ -16,7 +16,6 @@ const Home = () => (
       desc="Explore novas ferramentas tecnológicas digitais e turbine os resultados das metodologias de aprendizagem ativas"
     />
     <ContainerList />
-    <ComponentParallax />
     <ContainerContador />
     <UltimasNovidades />
     <MyFooter />

@@ -11,7 +11,6 @@ const ContainerNovidades = () => (
       <Card text="Como ultilizar o Kahoot" />
       <Card text="Dicas para o Ensino Hibrido" />
       <Card text="Conheça a equipe" />
-      <Card text="Como performatizar o Ensino Hibrido" />
     </Row>
   </section>
 );

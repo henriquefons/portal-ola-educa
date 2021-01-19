@@ -13,13 +13,13 @@
 }
 
 .components-ultimasnovidades-card p {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .components-ultimasnovidades-card a {
   border-radius: 25px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   background-color: #162f52;
 }
 
