@@ -1,0 +1,28 @@
+.components-ultimasnovidades-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.components-ultimasnovidades-card div {
+  margin-top: 15px;
+  width: 280px;
+  height: 280px;
+  background-color: #fff;
+}
+
+.components-ultimasnovidades-card p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.components-ultimasnovidades-card a {
+  border-radius: 25px;
+  margin-bottom: 25px;
+  background-color: #162f52;
+}
+
+.components-ultimasnovidades-card a:hover {
+  background-color: #4437ab;
+}

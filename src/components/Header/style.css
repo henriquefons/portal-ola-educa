@@ -20,17 +20,3 @@
   width: 15%;
 }
 
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .components-header__container h2 {
-    font-size: 3em;
-  }
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  .components-header__container h2 {
-    font-size: 2.5em;
-    padding: 0;
-  }
-}
