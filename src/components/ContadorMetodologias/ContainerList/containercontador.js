@@ -8,14 +8,10 @@ import './style.css';
 const ContainerContador = () => (
   <section className="components-contadormet-containerlist">
     <Container>
-      <Row>
-        <Col
-          m={7}
-          s={12}
-          className="valign-wrapper components-contadormet-containerlist__col"
-        >
-          <h4 className="center">
-            O portal Olá Educa disponibiliza para a comunidade:
+      <Row className="components-contadormet-containerlist__col">
+        <Col m={7} s={12}>
+          <h4>
+            Atualmente, o portal Olá Educa disponibiliza para a comunidade:
           </h4>
         </Col>
         <Col m={5} s={0}>

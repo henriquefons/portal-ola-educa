@@ -1,15 +1,19 @@
 .components-contadormet-containerlist {
-  min-height: 280px;
-  background-color: #B9D0F0;
+  height: 500px;
+  background-color: #b9d0f0;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .components-contadormet-containerlist h4 {
   margin: 0;
-  padding: 20px 0;
+  font-weight: 200;
+  max-width: 350px;
 }
 
 .components-contadormet-containerlist__col {
-  height: 340px;
-  display: flex;
   align-items: center;
-  text-align: center;
+  display: flex;
 }

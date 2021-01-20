@@ -3,9 +3,9 @@ import Col from 'react-materialize/lib/Col';
 import './style.css';
 
 const Card = ({ ...children }) => (
-  <Col className="center-align components-contadormet-card" m={12}>
-    <h5>{children.title}</h5>
+  <Col s={12} className="center-align components-contadormet-card">
     <h4>{children.count}</h4>
+    <h5>{children.title}</h5>
   </Col>
 );
 
