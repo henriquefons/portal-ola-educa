@@ -13,7 +13,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4",
-    "homepage": "http://henriquefons.git.io/portal-ola-educa"
+    "homepage": "https://henriquefons.github.io/portal-ola-educa/"
   },
   "scripts": {
     "predeploy": "npm run build",
