@@ -1,0 +1,24 @@
+.introducaometodologia-card__imagem {
+  height: 300px;
+  width: 300px;
+  background-color: cornflowerblue;
+}
+
+.introducaometodologia-card__texto h5{
+  margin: 0;
+}
+
+.introducaometodologia-card__texto P {
+  text-align: left;
+  font-weight: 299;
+}
+
+.introducaometodologia-card__texto a {
+  border-radius: 25px;
+  background-color: #162f52;
+}
+
+.introducaometodologia-card__texto a:hover {
+  background-color: #4437ab;
+}
+
