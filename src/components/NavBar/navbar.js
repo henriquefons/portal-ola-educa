@@ -29,7 +29,7 @@ const NavBar = () => (
     sidenav={
       <ul>
         <li>
-          <Link to="/">FERRAMENTAS</Link>
+          <Link to="/ferramentas">FERRAMENTAS</Link>
         </li>
         <li>
           <Link to="/metodologias">METODOLOGIAS</Link>
@@ -43,7 +43,7 @@ const NavBar = () => (
       </ul>
     }
   >
-    <Link to="/">FERRAMENTAS</Link>
+    <Link to="/ferramentas">FERRAMENTAS</Link>
     <Link to="/metodologias">METODOLOGIAS</Link>
     <Link to="/">DICAS</Link>
     <Link to="/">SOBRE</Link>
