@@ -1,0 +1,26 @@
+.component-ferramentas-card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.component-ferramentas-card__content {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 270px;
+  min-width: auto;
+  max-height: 390px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.component-ferramentas-card__content div {
+  padding: 0 !important;
+}
+
+.component-ferramentas-card__button{
+  background-color: #162F52;
+}
+.component-ferramentas-card__button:hover{
+  background-color: #4437ab;
+}

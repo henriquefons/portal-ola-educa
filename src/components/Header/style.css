@@ -1,6 +1,6 @@
 .components-header {
   background-color: #b9d0f0;
-  height: 400px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   text-align: center;
