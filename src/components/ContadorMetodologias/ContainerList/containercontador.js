@@ -10,7 +10,7 @@ const ContainerContador = () => (
     <Container>
       <Row className="components-contadormet-containerlist__col">
         <Col m={7} s={12}>
-          <h4>
+          <h4 className="components-contadormet-containerlist__titulo">
             Atualmente, o portal Olá Educa disponibiliza para a comunidade:
           </h4>
         </Col>

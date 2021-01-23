@@ -6,7 +6,6 @@
   background-color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 10px;
-  max-width: 270px;
   min-width: auto;
   max-height: 390px;
   display: block;
@@ -14,8 +13,13 @@
   margin-right: auto;
 }
 
+.component-ferramentas-card__text {
+  text-align: left;
+  font-weight: 300;
+}
+
 .component-ferramentas-card__content div {
-  padding: 0 !important;
+  padding: 0 ;
 }
 
 .component-ferramentas-card__button{
@@ -23,4 +27,13 @@
 }
 .component-ferramentas-card__button:hover{
   background-color: #4437ab;
+}
+
+.component-ferramentas-card__imagem{
+  width: 100%;
+}
+
+.component-ferramentas-card__titulo{
+  font-size: 20px;
+  font-weight: 500;
 }
