@@ -10,7 +10,8 @@
 
 .introducaometodologia-card__texto P {
   text-align: left;
-  font-weight: 299;
+  font-weight: 300;
+  font-size: 17px;
 }
 
 .introducaometodologia-card__texto a {

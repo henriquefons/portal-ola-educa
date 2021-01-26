@@ -21,7 +21,7 @@ const Card = ({ ...children }) => (
       </Row>
       <p className="component-ferramentas-card__text">{children.texto}</p>
       <Link
-        to="/ferramentas"
+        to={`/ferramentas/${children.id}`}
         className="btn waves-effect component-ferramentas-card__button"
       >
         Conheça mais!
