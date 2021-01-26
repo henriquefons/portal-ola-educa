@@ -1,0 +1,28 @@
+.ferramentasdetalhadastexto {
+  min-height: 500px;
+  background-color: #CCD9FF;
+}
+
+.ferramentasdetalhadastexto__conteudo {
+  padding: 20px 15% !important;
+}
+
+.ferramentasdetalhadastexto__conteudo h2{
+  font-size: 3.0rem;
+  margin: 0;
+}
+
+.ferramentasdetalhadastexto__conteudo p{
+  line-height: 1.62;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.ferramentasdetalhadastexto__publicacao {
+  padding: 30px 0;
+  width: 100%;
+  text-align: right;
+  font-weight: 250;
+}

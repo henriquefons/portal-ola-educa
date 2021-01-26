@@ -6,7 +6,7 @@ import { Navbar, Icon } from 'react-materialize';
 const NavBar = () => (
   <Navbar
     className="components-navbar"
-    fixed="true"
+    fixed
     alignLinks="right"
     brand={
       <Link className="brand-logo" to="/">
