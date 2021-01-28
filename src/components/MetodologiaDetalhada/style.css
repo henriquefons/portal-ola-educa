@@ -13,6 +13,10 @@
   list-style-type: disc;
 }
 
+.metodologiadetalhadastexto img {
+  width: 90%;
+}
+
 .metodologiadetalhadastexto__conteudo {
   padding: 20px 15% !important;
 }
