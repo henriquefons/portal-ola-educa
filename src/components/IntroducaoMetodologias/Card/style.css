@@ -1,8 +1,21 @@
-.introducaometodologia-card__imagem {
-  height: 300px;
-  width: 300px;
-  background-color: cornflowerblue;
+.introducaometodologia-card__coluna1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.introducaometodologia-card__imagem {
+  max-height: 300px;
+  max-width: 300px;
+
+  padding: 10px;
+}
+
+.introducaometodologia-card__imagem img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 
 .introducaometodologia-card__texto h5{
   margin: 0;

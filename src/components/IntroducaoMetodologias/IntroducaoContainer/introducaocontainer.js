@@ -7,9 +7,8 @@ const IntroducaoMetodologia = () => (
   <section className="introducaometodologia-card">
     <Container className="introducaometodologia-card__card">
       <Card
-        coluna1=""
-        coluna2=""
-        url="Imagem!!"
+        url="/image/peerinstruction.jpeg"
+        alt="Instrução em pares"
         titulo="Instrução em pares"
         texto="“O peer instruction é uma abordagem pedagógica
         que enfatiza os conceitos básicos, com alunos
@@ -23,7 +22,8 @@ const IntroducaoMetodologia = () => (
       <Card
         coluna1="push-m7"
         coluna2="pull-m5"
-        url="Imagem!!"
+        url="/image/ensinohibrido.jpeg"
+        alt="Ensino Hibrido"
         titulo="Ensino Hibrido"
         texto="Segundo Horn e Staker (2015), o Ensino Híbrido
         (Blended Learning) mescla momentos em que
@@ -37,13 +37,11 @@ const IntroducaoMetodologia = () => (
       />
       {/* Card Invertido */}
       <Card
-        coluna1=""
-        coluna2=""
-        url="Imagem!!"
+        url="/image/gamificacaopic.png"
+        alt="Gamificação"
         titulo="Gamificação"
-        texto="Trazer a experiência de jogos para o ensino.
-        A ideia é trazer a lógica dos jogos para o
-        contexto educacional. É uma excelente forma
+        texto="Proporcionar a experiência e a lógica de jogos para
+        o ensino e no contexto educacional. É uma excelente forma
         de sair da rotina e criar um ambiente de
         trabalho divertido e competidor, o qual
         desenvolve o engajamento, motivação e
