@@ -18,7 +18,10 @@ const Card = ({ ...children }) => (
     >
       <h5>{children.titulo}</h5>
       <p>{children.texto}</p>
-      <Link to="/" className="btn-small waves-effect">
+      <Link
+        to={`/metodologias${children.detalhar}`}
+        className="btn waves-effect"
+      >
         Saiba mais!
       </Link>
     </Col>
