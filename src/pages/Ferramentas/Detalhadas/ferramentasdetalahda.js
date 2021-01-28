@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import FerramentasDetalhadaTexto from '../../../components/FerramentasDetalhada/ferramentasdetalahda';
+import FerramentasDetalhadaTexto from '../../../components/FerramentasDetalhada/ferramentasdetalhada';
 import MyFooter from '../../../components/Footer/footer';
 import Header from '../../../components/Header/header';
 import NavBar from '../../../components/NavBar/navbar';

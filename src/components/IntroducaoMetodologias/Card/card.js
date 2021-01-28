@@ -8,9 +8,11 @@ const Card = ({ ...children }) => (
   <Row>
     <Col
       m={5}
-      className={`center ${children.coluna1} introducaometodologia-card__imagem`}
+      className={`center ${children.coluna1} introducaometodologia-card__coluna1`}
     >
-      <div>{children.url}</div>
+      <div className="introducaometodologia-card__imagem">
+        <img src={children.url} alt={children.alt} />
+      </div>
     </Col>
     <Col
       m={7}
@@ -18,7 +20,10 @@ const Card = ({ ...children }) => (
     >
       <h5>{children.titulo}</h5>
       <p>{children.texto}</p>
-      <Link to="/" className="btn-small waves-effect">
+      <Link
+        to={`/metodologias${children.detalhar}`}
+        className="btn waves-effect"
+      >
         Saiba mais!
       </Link>
     </Col>
