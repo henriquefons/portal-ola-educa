@@ -11,7 +11,7 @@ const Card = ({ ...children }) => (
       className={`center ${children.coluna1} introducaometodologia-card__coluna1`}
     >
       <div className="introducaometodologia-card__imagem">
-        <img src={children.url} alt={children.alt} />
+        <img className="z-depth-2" src={children.url} alt={children.alt} />
       </div>
     </Col>
     <Col

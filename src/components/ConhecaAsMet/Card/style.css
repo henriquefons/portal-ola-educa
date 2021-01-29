@@ -5,12 +5,15 @@
   flex-direction: column;
 }
 
-.conhecaasmet-card div {
-  border-radius: 50%;
+.conhecaasmet-card__imagem {
   margin-top: 15px;
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.conhecaasmet-card__imagem img {
+  border-radius: 50%;
+  width: 100%;
 }
 
 .conhecaasmet-card a {

@@ -9,9 +9,24 @@ const ContainerList = () => (
       Conheça as metodologias de aprendizagem ativas
     </h4>
     <Row>
-      <Card text="Ensino Hibrido" />
-      <Card text="Instrução em Pares" />
-      <Card text="Gamificação" />
+      <Card
+        url="/image/ensinohibrido.jpeg"
+        detalhar="/ensinohibrido"
+        alt="Ensino Hibrido"
+        text="Ensino Hibrido"
+      />
+      <Card
+        url="/image/peerinstruction.jpeg"
+        detalhar="/instrucaoempares"
+        alt="Instrução em Pares"
+        text="Instrução em Pares"
+      />
+      <Card
+        url="/image/gamificacaopic.png"
+        detalhar="/gamificacao"
+        alt="Gamificação"
+        text="Gamificação"
+      />
     </Row>
   </section>
 );
