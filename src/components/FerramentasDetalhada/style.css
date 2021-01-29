@@ -3,6 +3,16 @@
   background-color: #CCD9FF;
 }
 
+.ferramentasdetalhadastexto__conteudo li {
+  font-size: 18px;
+  line-height: 1.62;
+  font-weight: 300;
+}
+
+.ferramentasdetalhadastexto__conteudo ul li {
+  list-style-type: disc;
+}
+
 .ferramentasdetalhadastexto__conteudo {
   padding: 20px 15% !important;
 }

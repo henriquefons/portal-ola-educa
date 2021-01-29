@@ -9,9 +9,7 @@ const FerramentasDetalhadaTexto = ({ ...children }) => (
       <Row className="ferramentasdetalhadastexto__conteudo">
         <h2>{children.titulo}</h2>
 
-        {children.texto.map((paragrafos) => (
-          <p>{paragrafos}</p>
-        ))}
+        {children.texto.map((paragrafos) => paragrafos)}
 
         <div className="ferramentasdetalhadastexto__publicacao">
           <span>
@@ -24,7 +22,7 @@ const FerramentasDetalhadaTexto = ({ ...children }) => (
         </div>
 
         <div className="ferramentasdetalhadastexto__referencias">
-          <p>{children.referencia}</p>
+          {children.referencia}
         </div>
       </Row>
     </Container>
