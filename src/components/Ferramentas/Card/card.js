@@ -11,7 +11,7 @@ const Card = ({ ...children }) => (
         <Col s={4}>
           <img
             className="component-ferramentas-card__imagem"
-            alt=""
+            alt={children.alt}
             src={children.url}
           />
         </Col>

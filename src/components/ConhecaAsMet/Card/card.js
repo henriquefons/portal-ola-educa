@@ -5,8 +5,13 @@ import './style.css';
 
 const Card = ({ ...children }) => (
   <Col className="center-align conhecaasmet-card" s={12} m={4}>
-    <div className="z-depth-2">Imagem</div>
-    <Link to="/" className="btn-small waves-effect">
+    <div className="conhecaasmet-card__imagem">
+      <img className="z-depth-2" src={children.url} alt={children.alt} />
+    </div>
+    <Link
+      to={`/metodologias${children.detalhar}`}
+      className="btn-small waves-effect"
+    >
       {children.text}
     </Link>
   </Col>
