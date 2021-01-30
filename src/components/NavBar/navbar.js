@@ -45,7 +45,7 @@ const NavBar = () => (
   >
     <Link to="/ferramentas">FERRAMENTAS</Link>
     <Link to="/metodologias">METODOLOGIAS</Link>
-    <Link to="/">DICAS</Link>
+    <Link to="/">FORMAS DE APLICAÇÃO</Link>
     <Link to="/">SOBRE</Link>
   </Navbar>
 );
