@@ -33,7 +33,7 @@ const MyFooter = () => (
   >
     <h5 className="white-text">Olá Educa</h5>
     <p className="grey-text text-lighten-4">
-      Apoie essa comunidade! Doe para que este site esteja sempre no ar!
+      A melhor combinação: metodologias com ferramentas! *-*
     </p>
   </Footer>
 );

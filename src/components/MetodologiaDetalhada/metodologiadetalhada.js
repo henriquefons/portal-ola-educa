@@ -1,12 +1,17 @@
 import React from 'react';
 import Container from 'react-materialize/lib/Container';
 import Row from 'react-materialize/lib/Row';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const MetodologiaDetalhadaTexto = ({ ...children }) => (
   <section className="metodologiadetalhadastexto">
     <Container>
       <Row className="metodologiadetalhadastexto__conteudo">
+        <div className="metodologiadetalhadastexto__voltar">
+          <Link to="/metodologias">Voltar para as metodologias</Link>
+        </div>
+
         <h2>{children.titulo}</h2>
 
         {children.texto.map((paragrafos) => paragrafos)}

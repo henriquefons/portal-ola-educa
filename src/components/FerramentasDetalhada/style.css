@@ -3,6 +3,10 @@
   background-color: #CCD9FF;
 }
 
+.ferramentasdetalhadastexto__voltar{
+  margin-bottom: 10px !important;
+}
+
 .ferramentasdetalhadastexto__conteudo li {
   font-size: 18px;
   line-height: 1.62;
