@@ -3,14 +3,12 @@ import { useParams } from 'react-router-dom';
 import FerramentasDetalhadaTexto from '../../../components/FerramentasDetalhada/ferramentasdetalhada';
 import MyFooter from '../../../components/Footer/footer';
 import Header from '../../../components/Header/header';
-import NavBar from '../../../components/NavBar/navbar';
 
 const FerramentasDetalhada = () => {
   const { title } = useParams();
 
   return (
     <>
-      <NavBar />
       <Header
         title="CONHEÇA FERRAMENTAS PARA AUXILIAR EM METODOLOGIAS ATIVAS"
         desc="Tudo que você precisa saber para aplicar em suas metodologias"

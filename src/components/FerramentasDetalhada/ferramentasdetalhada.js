@@ -1,12 +1,17 @@
 import React from 'react';
 import Container from 'react-materialize/lib/Container';
 import Row from 'react-materialize/lib/Row';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const FerramentasDetalhadaTexto = ({ ...children }) => (
   <section className="ferramentasdetalhadastexto">
     <Container>
       <Row className="ferramentasdetalhadastexto__conteudo">
+        <div className="ferramentasdetalhadastexto__voltar">
+          <Link to="/ferramentas">Voltar para as ferramentas</Link>
+        </div>
+
         <h2>{children.titulo}</h2>
 
         {children.texto.map((paragrafos) => paragrafos)}
