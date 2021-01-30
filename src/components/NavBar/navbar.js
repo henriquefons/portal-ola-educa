@@ -35,7 +35,7 @@ const NavBar = () => (
           <Link to="/metodologias">METODOLOGIAS</Link>
         </li>
         <li>
-          <Link to="/">DICAS</Link>
+          <Link to="/">FORMAS DE APLICAÇÃO</Link>
         </li>
         <li>
           <Link to="/">SOBRE</Link>

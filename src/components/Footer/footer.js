@@ -33,7 +33,8 @@ const MyFooter = () => (
   >
     <h5 className="white-text">Olá Educa</h5>
     <p className="grey-text text-lighten-4">
-      A melhor combinação: metodologias com ferramentas! *-*
+      Turbine a experiencia das metodologias ativas com ferramentas super
+      tecnologicas!
     </p>
   </Footer>
 );
