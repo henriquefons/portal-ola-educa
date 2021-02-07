@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from '../components/NavBar/navbar';
 import ScrollToTop from '../services/ScrollTop/ScrollToTop';
+import FormasDeAplicacao from './Aplicacao/formasdeaplicacao';
 import FerramentasDetalhada from './Ferramentas/Detalhadas/ferramentasdetalahda';
 import Ferramentas from './Ferramentas/ferramentas';
 import Home from './Home/home';
@@ -13,6 +14,7 @@ const Root = () => (
     <ScrollToTop />
     <NavBar />
     <Switch>
+      <Route path="/aplicacao" component={FormasDeAplicacao} />
       <Route path="/ferramentas/:title" component={FerramentasDetalhada} />
       <Route path="/ferramentas" component={Ferramentas} />
       <Route path="/metodologias/:id" component={MetodologiaDetalhada} />
