@@ -7,10 +7,7 @@ import './style.css';
 const ItemColecao = ({ ...children }) => (
   <Row className="z-depth-1 formasdeaplicacao-itens">
     <Col m="2" s="12" className="formasdeaplicacao-itens__img">
-      <img
-        src={children.conteudo.img} // "https://i.postimg.cc/Rh1sdxSt/google.jpg "
-        alt="Ferramentas do G Suite"
-      />
+      <img src={children.conteudo.img} alt={children.conteudo.alt} />
     </Col>
     <Col m="8" s="12" className="formasdeaplicacao-itens__lista">
       <ul>

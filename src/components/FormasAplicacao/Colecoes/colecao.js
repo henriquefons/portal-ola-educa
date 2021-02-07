@@ -11,6 +11,7 @@ const Colecoes = () => (
         conteudo={[
           {
             img: 'https://i.postimg.cc/PqqgqJtR/plickers.png',
+            alt: 'Plickers',
             nome: 'Plickers',
             siteoficial: '',
             saibamais: '',
@@ -18,6 +19,7 @@ const Colecoes = () => (
           },
           {
             img: 'https://i.postimg.cc/tgdrdHBH/download.png',
+            alt: 'Kahoot',
             nome: 'Kahoot',
             siteoficial: '',
             saibamais: '',
@@ -25,6 +27,7 @@ const Colecoes = () => (
           },
           {
             img: 'https://i.postimg.cc/BbVjzPbQ/socrativeicon.jpg',
+            alt: 'Socrative',
             nome: 'Socrative',
             siteoficial: '',
             saibamais: '',
@@ -37,6 +40,7 @@ const Colecoes = () => (
         conteudo={[
           {
             img: 'https://i.postimg.cc/Rh1sdxSt/google.jpg',
+            alt: 'Ferramentas do G Suite',
             nome: 'Ferramentas do G Suite',
             siteoficial: '',
             saibamais: '',
@@ -44,6 +48,7 @@ const Colecoes = () => (
           },
           {
             img: 'https://i.postimg.cc/FzRfGV9B/moodleicon.png',
+            alt: 'Moodle',
             nome: 'Moodle',
             siteoficial: '',
             saibamais: '',
@@ -56,6 +61,7 @@ const Colecoes = () => (
         conteudo={[
           {
             img: 'https://i.postimg.cc/PqqgqJtR/plickers.png',
+            alt: 'Plickers',
             nome: 'Plickers',
             siteoficial: '',
             saibamais: '',
@@ -63,6 +69,7 @@ const Colecoes = () => (
           },
           {
             img: 'https://i.postimg.cc/tgdrdHBH/download.png',
+            alt: 'Kahoot',
             nome: 'Kahoot',
             siteoficial: '',
             saibamais: '',
@@ -70,6 +77,7 @@ const Colecoes = () => (
           },
           {
             img: 'https://i.postimg.cc/ydngFbzR/expeditionsicon.png',
+            alt: 'Expeditions',
             nome: 'Expeditions',
             siteoficial: '',
             saibamais: '',
@@ -77,6 +85,7 @@ const Colecoes = () => (
           },
           {
             img: 'https://i.postimg.cc/NGJ2FSDq/lightbot.png',
+            alt: 'LightBot',
             nome: 'LightBot',
             siteoficial: '',
             saibamais: '',
