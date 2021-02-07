@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import NavBar from '../../../components/NavBar/navbar';
 import FerramentasDetalhadaTexto from '../../../components/FerramentasDetalhada/ferramentasdetalhada';
 import MyFooter from '../../../components/Footer/footer';
 import Header from '../../../components/Header/header';
@@ -9,6 +10,7 @@ const FerramentasDetalhada = () => {
 
   return (
     <>
+      <NavBar />
       <Header
         title="CONHEÇA FERRAMENTAS PARA AUXILIAR EM METODOLOGIAS ATIVAS"
         desc="Tudo que você precisa saber para aplicar em suas metodologias"

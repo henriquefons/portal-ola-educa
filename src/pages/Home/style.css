@@ -24,4 +24,10 @@
     display: block;
     text-align: center;
   }
+  .formasdeaplicacao-itens{
+    display: block !important;
+  }
+  .formasdeaplicacao-itens__lista {
+    text-align: center;
+  }
 }

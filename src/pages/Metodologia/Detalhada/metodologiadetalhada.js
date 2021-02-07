@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import NavBar from '../../../components/NavBar/navbar';
 import MyFooter from '../../../components/Footer/footer';
 import Header from '../../../components/Header/header';
 import MetodologiaDetalhadaTexto from '../../../components/MetodologiaDetalhada/metodologiadetalhada';
@@ -9,6 +10,7 @@ const MetodologiaDetalhada = () => {
 
   return (
     <>
+      <NavBar />
       <Header
         title="CONHEÇA AS MELHORES METODOLOGIAS ATIVAS"
         desc="O melhor jeito de aprender metodologias de aprendizagem ativa de uma forma descontraida"

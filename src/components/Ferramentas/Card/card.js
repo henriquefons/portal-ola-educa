@@ -8,12 +8,8 @@ const Card = ({ ...children }) => (
   <Col l={3} m={6} s={12} className="component-ferramentas-card">
     <div className="z-depth-3 component-ferramentas-card__content center">
       <Row className="center">
-        <Col s={4}>
-          <img
-            className="component-ferramentas-card__imagem"
-            alt={children.alt}
-            src={children.url}
-          />
+        <Col s={4} className="component-ferramentas-card__imagem">
+          <img alt={children.alt} src={children.url} />
         </Col>
         <Col className="component-ferramentas-card__titulo" s={8}>
           {children.titulo}
