@@ -1,16 +1,14 @@
 .row {
   margin: 0;
-  padding: 0 50px;
 }
 
 .components-ultimasnovidades-containernovidades {
   min-height: 350px;
-  background-color: #E4E8F2;
+  background-color: #E4E8F2 !important;
 }
 
 .components-ultimasnovidades-containernovidades h4 {
   margin: 0;
   padding: 20px 0;
   font-weight: 500;
-  background-color: #ccd9ff;
 }
