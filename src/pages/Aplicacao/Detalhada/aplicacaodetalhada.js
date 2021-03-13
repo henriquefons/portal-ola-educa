@@ -32,10 +32,10 @@ const AplicacaoDetalhada = () => {
               ferramentas Plickers junto a metodologia Instrução em pares
             </p>,
             <iframe
-              title="Portal Olá Educa - Utilizando a ferramenta Socrative à metodologia Instrução em Pares!"
+              title="Portal Olá Educa - Utilizando a ferramenta Plickers à metodologia Instrução em Pares!"
               width="100%"
               height="520"
-              src="https://www.youtube.com/embed/Pu_ohjJcLnQ"
+              src="https://www.youtube.com/embed/-t6ZusJ1ZOs"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -73,7 +73,7 @@ const AplicacaoDetalhada = () => {
               ferramentas Socrative junto a metodologia Instrução em pares
             </p>,
             <iframe
-              title="Portal Olá Educa - Utilizando a ferramenta Plickers à metodologia Instrução em Pares!"
+              title="Socrative: aplique a metodologia Instrução em pares"
               width="100%"
               height="520"
               src="https://www.youtube.com/embed/Pu_ohjJcLnQ"
