@@ -6,6 +6,9 @@
   .components-contadormet-card h5{
     font-size: 25px;
   }
+  .metodologiadetalhadastexto__conteudo iframe{
+    height: 350px;
+  }
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -16,6 +19,21 @@
   }
   .components-contadormet-containerlist {
     height: auto + 20px;
+  }
+  .metodologiadetalhadastexto__conteudo {
+    padding: 20px 10% !important;
+  }
+  .metodologiadetalhadastexto__conteudo p{
+    font-size: 16px !important;
+  }
+  .ferramentasdetalhadastexto__conteudo {
+    padding: 20px 10% !important;
+  }
+  .ferramentasdetalhadastexto__conteudo p{
+    font-size: 16px !important;
+  }
+  .metodologiadetalhadastexto__conteudo iframe{
+    height: 250px;
   }
 }
 

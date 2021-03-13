@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from '../services/ScrollTop/ScrollToTop';
+import AplicacaoDetalhada from './Aplicacao/Detalhada/aplicacaodetalhada';
 import FormasDeAplicacao from './Aplicacao/formasdeaplicacao';
 import FerramentasDetalhada from './Ferramentas/Detalhadas/ferramentasdetalahda';
 import Ferramentas from './Ferramentas/ferramentas';
@@ -12,6 +13,7 @@ const Root = () => (
   <Router>
     <ScrollToTop />
     <Switch>
+      <Route path="/aplicacao/:id" component={AplicacaoDetalhada} />
       <Route path="/aplicacao" component={FormasDeAplicacao} />
       <Route path="/ferramentas/:title" component={FerramentasDetalhada} />
       <Route path="/ferramentas" component={Ferramentas} />

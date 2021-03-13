@@ -1,6 +1,6 @@
 .metodologiadetalhadastexto {
   min-height: 500px;
-  background-color: #CCD9FF;
+  background-color: #E4E8F2;
 }
 
 .metodologiadetalhadastexto__voltar {
@@ -19,10 +19,11 @@
 
 .metodologiadetalhadastexto img {
   width: 90%;
+  border-radius: 10px;
 }
 
 .metodologiadetalhadastexto__conteudo {
-  padding: 20px 15% !important;
+  padding: 20px 15%;
 }
 
 .metodologiadetalhadastexto__conteudo h2{
