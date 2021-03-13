@@ -16,10 +16,15 @@ const ItemColecao = ({ ...children }) => (
         </li>
         <li>
           Acesse a pagina oficial:{' '}
-          <a href={children.conteudo.siteoficial}>{children.conteudo.nome}</a>
+          <a
+            target="_blank|_self|_parent|_top|framename"
+            href={children.conteudo.siteoficial}
+          >
+            {children.conteudo.nome}
+          </a>
         </li>
         <li>
-          <Link to={children.conteudo.saibamais}>
+          <Link to={`/aplicacao/${children.conteudo.saibamais}`}>
             <span>{children.conteudo.comoaplicar}</span>
           </Link>
         </li>

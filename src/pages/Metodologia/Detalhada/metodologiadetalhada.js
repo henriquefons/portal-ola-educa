@@ -18,6 +18,8 @@ const MetodologiaDetalhada = () => {
       {id === 'instrucaoempares' && (
         <MetodologiaDetalhadaTexto
           titulo="Instrução em pares ou Peer Instruction"
+          voltar="Voltar para as metodologias"
+          endereco="/metodologias"
           texto={[
             <p>
               A metodologia Peer Instruction (Instrução por Pares ou por
@@ -98,6 +100,8 @@ const MetodologiaDetalhada = () => {
       {id === 'ensinohibrido' && (
         <MetodologiaDetalhadaTexto
           titulo="Ensino Hibrido ou Flipped Classroom"
+          voltar="Voltar para as metodologias"
+          endereco="/metodologias"
           texto={[
             <p>
               A metodologia Flipped Classroom, ou sala de aula invertida, propõe
@@ -145,6 +149,8 @@ const MetodologiaDetalhada = () => {
       {id === 'gamificacao' && (
         <MetodologiaDetalhadaTexto
           titulo="Gamificação ou Gamification"
+          voltar="Voltar para as metodologias"
+          endereco="/metodologias"
           texto={[
             <p>
               A metodologia Gamification (Gamificação) utiliza jogos digitais

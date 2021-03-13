@@ -193,7 +193,7 @@ const FerramentasDetalhada = () => {
             <p>
               O Moodle é uma plataforma completamente adaptável e tem como
               vantagem uma forte comunidade internacional impulsionando a
-              colaboração aberta e o suporte à co- munidade. O Moodle é sempre
+              colaboração aberta e o suporte à comunidade. O Moodle é sempre
               atualizado para correção de bugs e lançando melhorias, tornando-o
               atualizado e alinhado às tendências tecnológicas (MOODLE, 2020).
             </p>,
@@ -251,16 +251,16 @@ const FerramentasDetalhada = () => {
           texto={[
             <p>
               O aplicativo Socrative auxilia o professor em sala de aula,
-              possibilitando o en- gajamento e incentivando a participação do
+              possibilitando o engajamento e incentivando a participação do
               aluno, que é dada por meio de avaliações dinâmicas com análise do
-              resultado de forma rápida e em tempo real. A grande vanta- gem é
-              que economiza o tempo do professor ao avaliar uma tarefa e
-              possibilita atender rapidamente as necessidades da turma (PALANCA;
-              RACHEL, 2020).
+              resultado de forma rápida e em tempo real. A grande vantagem é que
+              economiza o tempo do professor ao avaliar uma tarefa e possibilita
+              atender rapidamente as necessidades da turma (PALANCA; RACHEL,
+              2020).
             </p>,
             <p>
               O aplicativo possibilita a realização de aulas ao vivo, realizando
-              perguntas ins- tantâneas e retornando feedbacks imediatos. É
+              perguntas instantâneas e retornando feedbacks imediatos. É
               possível criar enquetes, questionários ou qualquer tipo de
               atividade que se encaixem nas necessidades do professor (PALANCA;
               RACHEL, 2020).

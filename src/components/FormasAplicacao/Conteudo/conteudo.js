@@ -3,7 +3,7 @@ import ItemColecao from '../Itens/item';
 import './style.css';
 
 const ConteudoColecao = ({ ...children }) => (
-  <div className="formasdeaplicacao-item__conteudo z-depth-2">
+  <div className="formasdeaplicacao-item__conteudo">
     <h4>{children.titulo} </h4>
     {children.conteudo.map((conteudo) => (
       <ItemColecao conteudo={conteudo} />
