@@ -1,4 +1,4 @@
-# Porjeto TCC - Olá Educa
+# Projeto TCC - Olá Educa
 ### O que é o Portal Olá Educa?
 
 O portal Olá Educa tem como objetivo principal apresentar as metodologias de aprendizagem ativa e listar algumas ferramentas tecnologicas digitais que auxiliam o uso das metodologias ativas, tornando- as mais eficientes e descomplicadas!
