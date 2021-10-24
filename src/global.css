@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.filter-text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #0D0828;
+}
+
+.text-weight-8 {
+  font-weight: 800 !important;
+}
+
+/* label color */
+.input-field label {
+  color: #537CB6;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #162F52 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #162F52 !important;
+  box-shadow: 0 1px 0 0 #162F52 !important;
+}

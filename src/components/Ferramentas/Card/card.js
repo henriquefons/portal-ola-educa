@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Col from 'react-materialize/lib/Col';
-import Row from 'react-materialize/lib/Row';
 import './style.css';
+import Row from 'react-materialize/lib/Row';
 
 const Card = ({ ...children }) => (
-  <Col l={3} m={6} s={12} className="component-ferramentas-card">
-    <div className="z-depth-3 component-ferramentas-card__content center">
-      <Row className="center">
+  <Col l={4} m={6} s={12} className="component-ferramentas-card">
+    <div className="z-depth-3 component-ferramentas-card__content">
+      <Row center>
         <Col s={4} className="component-ferramentas-card__imagem">
           <img alt={children.alt} src={children.url} />
         </Col>

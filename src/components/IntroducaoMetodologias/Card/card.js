@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 const Card = ({ ...children }) => (
-  <Row>
+  <Row className="introducao-metodologia-card">
     <Col
       m={5}
-      className={`center ${children.coluna1} introducaometodologia-card__coluna1`}
+      className={`center ${
+        children.invertCard && 'push-m7'
+      } introducaometodologia-card__coluna1`}
     >
       <div className="introducaometodologia-card__imagem">
         <img className="z-depth-2" src={children.url} alt={children.alt} />
@@ -16,12 +18,14 @@ const Card = ({ ...children }) => (
     </Col>
     <Col
       m={7}
-      className={`center ${children.coluna2} } introducaometodologia-card__texto`}
+      className={`center ${
+        children.invertCard && 'pull-m5'
+      } introducaometodologia-card__texto`}
     >
       <h5>{children.titulo}</h5>
       <p>{children.texto}</p>
       <Link
-        to={`/metodologias${children.detalhar}`}
+        to={`/metodologias/${children.detalhar}`}
         className="btn waves-effect"
       >
         Saiba mais!

@@ -1,31 +1,33 @@
 .component-ferramentas-card {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 370px !important;
+  display: flex;
 }
 
 .component-ferramentas-card__content {
+  display: flex !important;
   background-color: rgb(255, 255, 255);
-  padding: 20px;
   border-radius: 10px;
-  min-width: auto;
-  max-height: auto;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px 20px;
+  margin: 0 !important;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .component-ferramentas-card__text {
-  min-height: 130px;
   text-align: left;
   font-weight: 300;
 }
 
-.component-ferramentas-card__content div {
-  padding: 0 ;
-}
-
 .component-ferramentas-card__button{
   background-color: #162F52;
+  display: flex;
+  align-self: center;
 }
+
 .component-ferramentas-card__button:hover{
   background-color: #4437ab;
 }

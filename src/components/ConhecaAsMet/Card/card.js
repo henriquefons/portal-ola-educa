@@ -9,7 +9,7 @@ const Card = ({ ...children }) => (
       <img className="z-depth-2" src={children.url} alt={children.alt} />
     </div>
     <Link
-      to={`/metodologias${children.detalhar}`}
+      to={`/metodologias/${children.detalhar}`}
       className="btn-small waves-effect"
     >
       {children.text}

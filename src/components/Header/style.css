@@ -6,7 +6,9 @@
   text-align: center;
 }
 .components-header__container h2 {
-  font-size: 3.6em;
+  font-size: 3.0em;
+  font-weight: 600 !important;
+  color: #040E40;
   padding: 10px 0;
 }
 

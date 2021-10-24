@@ -4,3 +4,7 @@
 .formasdeaplicacao-colecoes__item {
   padding: 20px 0 !important;
 }
+.formas-aplicacao-colecoes__formater-cards {
+  align-items: center !important;
+  justify-items: center !important;
+}
