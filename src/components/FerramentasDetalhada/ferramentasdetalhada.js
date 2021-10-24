@@ -27,7 +27,7 @@ const FerramentasDetalhadaTexto = ({ ...children }) => {
           {children.texto.map((paragrafos) => paragrafos)}
 
           <p>
-            {`Para saber mais sobre as ferramentas tecnologicas que podem combinar com a ${children.titulo},   `}
+            {`Para saber mais sobre quais metodologias ativas a ferramenta ${children.title} tem aplicabilidade, `}
             <Button
               style={{
                 padding: '0',
