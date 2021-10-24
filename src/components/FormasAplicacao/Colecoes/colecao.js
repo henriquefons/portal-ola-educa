@@ -82,6 +82,7 @@ const Colecoes = () => {
                   title={value.title}
                   moreInfo={value.moreInfo}
                   methodology={value.methodology}
+                  officialSite={value.officialSite}
                 />
               ),
           )}
@@ -97,6 +98,7 @@ const Colecoes = () => {
                   title={value.title}
                   moreInfo={value.moreInfo}
                   methodology={value.methodology}
+                  officialSite={value.officialSite}
                 />
               ),
           )}
@@ -112,6 +114,7 @@ const Colecoes = () => {
                   title={value.title}
                   moreInfo={value.moreInfo}
                   methodology={value.methodology}
+                  officialSite={value.officialSite}
                 />
               ),
           )}

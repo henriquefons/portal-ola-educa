@@ -26,7 +26,7 @@ const dataTools = [
   {
     id: 2,
     img: 'https://i.postimg.cc/tgdrdHBH/download.png',
-    srcVideo: 'https://www.youtube.com/embed/Ch66EiLSj1I?list=LL',
+    srcVideo: 'https://www.youtube.com/embed/Ch66EiLSj1I',
     titleVideo: 'Tutorial: Gamificação com Kahoot',
     public: 'Publicado em 27 de janeiro de 2021',
     authorVideo: 'Prof. Eder Bento',
@@ -101,6 +101,10 @@ const dataTools = [
   {
     id: 7,
     img: 'https://i.postimg.cc/tgdrdHBH/download.png',
+    srcVideo: 'https://www.youtube.com/embed/Ch66EiLSj1I',
+    titleVideo: 'Tutorial: Gamificação com Kahoot',
+    public: 'Publicado em 28 de maio de 2020',
+    authorVideo: 'Prof. Eder Bento',
     title: 'Kahoot',
     moreInfo: 'kahoot2',
     officialSite: '',
