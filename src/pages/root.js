@@ -9,6 +9,7 @@ import Ferramentas from './Ferramentas/ferramentas';
 import Home from './Home/home';
 import MetodologiaDetalhada from './Metodologia/Detalhada/metodologiadetalhada';
 import Metodologia from './Metodologia/metodologia';
+import Sobre from './Sobre/Sobre';
 
 const Root = () => (
   <Router>
@@ -21,6 +22,7 @@ const Root = () => (
         <Route path="/ferramentas" component={Ferramentas} />
         <Route path="/metodologias/:id" component={MetodologiaDetalhada} />
         <Route path="/metodologias" component={Metodologia} />
+        <Route path="/sobre" component={Sobre} />
         <Route exact path="/" component={Home} />
       </Switch>
     </StoreProvider>

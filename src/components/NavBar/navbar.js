@@ -38,7 +38,7 @@ const NavBar = () => (
           <Link to="/aplicacao">FORMAS DE APLICAÇÃO</Link>
         </li>
         <li>
-          <Link to="/">SOBRE</Link>
+          <Link to="/sobre">SOBRE</Link>
         </li>
       </ul>
     }
@@ -46,7 +46,7 @@ const NavBar = () => (
     <Link to="/ferramentas">FERRAMENTAS</Link>
     <Link to="/metodologias">METODOLOGIAS</Link>
     <Link to="/aplicacao">FORMAS DE APLICAÇÃO</Link>
-    <Link to="/">SOBRE</Link>
+    <Link to="/sobre">SOBRE</Link>
   </Navbar>
 );
 export default NavBar;
