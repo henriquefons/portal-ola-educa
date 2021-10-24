@@ -4,33 +4,66 @@ const dataTools = [
   {
     id: 1,
     img: 'https://i.postimg.cc/PqqgqJtR/plickers.png',
+    srcVideo: 'https://www.youtube.com/embed/-t6ZusJ1ZOs',
+    titleVideo: 'Plickes: aplique a metodologia Instrução em pares',
+    authorVideo: 'Henrique Fonseca',
+    public: 'Publicado em 27 de janeiro de 2021',
     title: 'Plickers',
     officialSite: 'https://get.plickers.com',
     moreInfo: 'plickres',
     methodology: 'Instrução em pares',
     color: '#162F52',
+    reference: [
+      <p>
+        PLICKERS, T.What is Plickers?2020. Disponível em:
+        &lt;https://help.plickers.com/hc/en-us/articles/360009395854-What-is-Plickers&gt;.
+        Acesso em: 03 de outubro de 2020.
+      </p>,
+    ],
     textSummary:
       'Plickers é uma ferramenta inovadora que coleta imediatamente respostas de múltipla escolha de alunos, sem precisar que eles tenham dispositivos tecnologicos para votar',
   },
   {
     id: 2,
     img: 'https://i.postimg.cc/tgdrdHBH/download.png',
+    srcVideo: 'https://www.youtube.com/embed/Ch66EiLSj1I?list=LL',
+    titleVideo: 'Tutorial: Gamificação com Kahoot',
+    public: 'Publicado em 27 de janeiro de 2021',
+    authorVideo: 'Prof. Eder Bento',
     title: 'Kahoot',
     officialSite: 'https://kahoot.it',
     moreInfo: 'kahoot',
     methodology: 'Instrução em pares',
     color: '#162F52',
+    reference: [
+      <p>
+        Bento, Eder. Prof. Eder Bento. 2020. Disponível em:
+        &lt;https://www.youtube.com/channel/UCv-Si75SEs1Mi2o9890zu_Q&gt;. Acesso
+        em: 13 de março de 2021.
+      </p>,
+    ],
     textSummary:
       'O Kahoot é uma ferramenta gratuita que funciona como um  quizz competitivo e induz o aluno a ser ativo no seu processo de aprendizagem.',
   },
   {
     id: 3,
     img: 'https://i.postimg.cc/BbVjzPbQ/socrativeicon.jpg',
+    srcVideo: 'https://www.youtube.com/embed/Pu_ohjJcLnQ',
+    titleVideo: 'Socrative: aplique a metodologia Instrução em pares',
+    authorVideo: 'Henrique Fonseca',
+    public: 'Publicado em 27 de janeiro de 2021',
     title: 'Socrative',
     moreInfo: 'socrative',
     officialSite: 'https://www.socrative.com',
     methodology: 'Instrução em pares',
     color: '#162F52',
+    reference: [
+      <p>
+        PALANCA, C.; RACHEL. Advice and answers from the Socrative Team. 2020.
+        Disponível em: &lt;https://help.socrative.com/en/&gt;. Acesso em: 01 de
+        dezembro de 2020.
+      </p>,
+    ],
     textSummary:
       'O aplicativo Socrative auxilia o professor em sala de aula, possibilitando o engajamento e incentivando a participação do aluno dada',
   },

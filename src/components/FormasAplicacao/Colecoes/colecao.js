@@ -53,15 +53,49 @@ const Colecoes = () => {
           </Col>
         </Row>
         <Row className="formas-aplicacao-colecoes__formater-cards">
-          {data.map((value) => (
-            <FormasAplicacaoCard
-              key={value.id}
-              img={value.img}
-              title={value.title}
-              moreInfo={value.moreInfo}
-              methodology={value.methodology}
-            />
-          ))}
+          <p className="filter-text">Instrução em pares</p>
+          {data.map(
+            (value) =>
+              value.methodology === 'Instrução em pares' && (
+                <FormasAplicacaoCard
+                  key={value.id}
+                  img={value.img}
+                  title={value.title}
+                  moreInfo={value.moreInfo}
+                  methodology={value.methodology}
+                />
+              ),
+          )}
+        </Row>
+        <Row className="formas-aplicacao-colecoes__formater-cards">
+          <p className="filter-text">Ensino Hibrido</p>
+          {data.map(
+            (value) =>
+              value.methodology === 'Ensino Hibrido' && (
+                <FormasAplicacaoCard
+                  key={value.id}
+                  img={value.img}
+                  title={value.title}
+                  moreInfo={value.moreInfo}
+                  methodology={value.methodology}
+                />
+              ),
+          )}
+        </Row>
+        <Row className="formas-aplicacao-colecoes__formater-cards">
+          <p className="filter-text">Gamificação</p>
+          {data.map(
+            (value) =>
+              value.methodology === 'Gamificação' && (
+                <FormasAplicacaoCard
+                  key={value.id}
+                  img={value.img}
+                  title={value.title}
+                  moreInfo={value.moreInfo}
+                  methodology={value.methodology}
+                />
+              ),
+          )}
         </Row>
       </Container>
     </section>

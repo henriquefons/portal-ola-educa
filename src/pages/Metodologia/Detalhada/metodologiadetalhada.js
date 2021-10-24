@@ -12,7 +12,7 @@ const MetodologiaDetalhada = () => {
   useEffect(() => {
     const data = dataMethodology.find((value) => value.moreInfo === id);
     setMethodology(data);
-  }, []);
+  }, [id]);
 
   return (
     <>

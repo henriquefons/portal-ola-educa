@@ -15,7 +15,7 @@ const FerramentasDetalhada = () => {
         title="CONHEÇA FERRAMENTAS PARA AUXILIAR EM METODOLOGIAS ATIVAS"
         desc="Tudo que você precisa saber para aplicar em suas metodologias"
       />
-      {title === 'plickers' && (
+      {title === 'plickres' && (
         <FerramentasDetalhadaTexto
           titulo="Plickes: desafie seus alunos!"
           texto={[
