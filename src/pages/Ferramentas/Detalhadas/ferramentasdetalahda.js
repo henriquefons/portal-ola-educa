@@ -17,6 +17,7 @@ const FerramentasDetalhada = () => {
       />
       {title === 'plickres' && (
         <FerramentasDetalhadaTexto
+          title="Plickes"
           titulo="Plickes: desafie seus alunos!"
           texto={[
             <p>
@@ -49,6 +50,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'kahoot' && (
         <FerramentasDetalhadaTexto
+          title="Kahoot"
           titulo="Kahoot: desafie seus alunos!"
           texto={[
             <p>
@@ -84,6 +86,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'gsuite' && (
         <FerramentasDetalhadaTexto
+          title="Ferramentas do G Suite"
           titulo="Ferramentas do G Suite: o popular que dá certo"
           texto={[
             <p>
@@ -149,6 +152,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'handtalk' && (
         <FerramentasDetalhadaTexto
+          title="Hand Talk"
           titulo="Hand Talk"
           texto={[
             <p>
@@ -168,6 +172,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'moodle' && (
         <FerramentasDetalhadaTexto
+          title="Moodle"
           titulo="Moodle"
           texto={[
             <p>
@@ -217,6 +222,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'expedicoes' && (
         <FerramentasDetalhadaTexto
+          title="Expedicoes"
           titulo="Expedicoes"
           texto={[
             <p>
@@ -247,6 +253,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'socrative' && (
         <FerramentasDetalhadaTexto
+          title="Socrative"
           titulo="Socrative"
           texto={[
             <p>
@@ -280,6 +287,7 @@ const FerramentasDetalhada = () => {
       )}
       {title === 'lightbot' && (
         <FerramentasDetalhadaTexto
+          title="Light Bot"
           titulo="Light Bot"
           texto={[
             <p>

@@ -25,6 +25,7 @@ const MetodologiaDetalhada = () => {
         <MetodologiaDetalhadaTexto
           key={methodology.id}
           titulo={methodology.titleDetail}
+          title={methodology.title}
           texto={methodology.textDetail}
           autor={methodology.author}
           publicado={methodology.public}

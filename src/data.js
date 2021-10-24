@@ -276,7 +276,7 @@ const dataMethodology = [
     title: 'Gamificação',
     textSummary:
       'Proporcionar a experiência e a lógica de jogos para o ensino e no contexto educacional. É uma excelente forma de sair da rotina e criar um ambiente de trabalho divertido e competidor, o qual desenvolve o engajamento, motivação e espirito vencedor do aluno.',
-    titleDetail: 'Gamificação ou Gamificatio',
+    titleDetail: 'Gamificação ou Gamification',
     textDetail: [
       <p>
         A metodologia Gamification (Gamificação) utiliza jogos digitais (games
