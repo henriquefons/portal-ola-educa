@@ -9,7 +9,7 @@ const MetodologiaDetalhadaTexto = ({ ...children }) => (
     <Container>
       <Row className="metodologiadetalhadastexto__conteudo">
         <div className="metodologiadetalhadastexto__voltar">
-          <Link to={children.endereco}>{children.voltar}</Link>
+          <Link to="/metodologias">Voltar para as metodologias</Link>
         </div>
 
         <h2>{children.titulo}</h2>

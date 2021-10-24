@@ -13,6 +13,7 @@ const FerramentasContainer = () => (
           (value) =>
             value.textSummary && (
               <Card
+                key={value.id}
                 id={value.moreInfo}
                 alt={value.title}
                 url={value.img}
