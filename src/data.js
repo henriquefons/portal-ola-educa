@@ -92,9 +92,14 @@ const dataTools = [
   {
     id: 6,
     img: 'https://i.postimg.cc/PqqgqJtR/plickers.png',
+    srcVideo:
+      'https://www.youtube.com/embed/mwzvtbAkIdQ?list=PLMr4QEsFm7o3HDJW1wBFda_51y1re9NM6',
+    titleVideo: 'Tutorial do Plickers',
+    public: 'Publicado em 13 de março de 2020',
+    authorVideo: 'Prof. Eder Bento',
     title: 'Plickers',
     moreInfo: 'plickers2',
-    officialSite: '',
+    officialSite: 'https://get.plickers.com',
     methodology: 'Gamificação',
     color: '#55520E',
   },
