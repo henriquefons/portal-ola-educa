@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-materialize';
+import { Col } from 'react-materialize';
 import './AboutCards.css';
 
 const AboutCard = (children) => {
