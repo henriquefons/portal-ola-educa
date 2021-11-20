@@ -18,7 +18,7 @@ const ContainerNovidades = () => (
         src="/metodologias/ensinohibrido"
         text="Dicas para o Ensino Hibrido"
       />
-      <Card url="/image/ifnmg.jpg" src="/equipe" text="Conheça a equipe" />
+      <Card url="/image/ifnmg.jpg" src="/sobre" text="Conheça a equipe" />
     </Row>
   </section>
 );
