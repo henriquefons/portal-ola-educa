@@ -8,8 +8,8 @@ const Ferramentas = () => (
   <>
     <NavBar />
     <Header
-      title="CONHEÇA FERRAMENTAS PARA AUXILIAR EM METODOLOGIAS ATIVAS"
-      desc="Descubra e aprenda diversas ferramentas tecnologicas para impulsionar o uso das metodologias de aprendizagem ativas"
+      title="CONHEÇA FERRAMENTAS PARA AUXILIAR NA APLICAÇÃO DE METODOLOGIAS ATIVAS"
+      desc="Descubra e aprenda diversas ferramentas tecnológicas para impulsionar o uso das metodologias de aprendizagem ativas"
     />
     <FerramentasContainer />
     <MyFooter />

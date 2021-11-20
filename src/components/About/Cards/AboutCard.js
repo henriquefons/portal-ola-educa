@@ -6,12 +6,8 @@ const AboutCard = (children) => {
   const { name, title, email, img } = children;
   return (
     <Col s={12} m={6} className="about-card">
-      <Col s={4} className="conhecaasmet-card__imagem">
-        <img
-          className="z-depth-2"
-          src={img}
-          alt={name}
-        />
+      <Col s={4} className="about-card__img">
+        <img className="z-depth-2" src={img} alt={name} />
       </Col>
       <Col s={8} className="about-card__details">
         <Col className="about-card__title">{title}</Col>

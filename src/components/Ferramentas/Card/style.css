@@ -20,6 +20,7 @@
 .component-ferramentas-card__text {
   text-align: left;
   font-weight: 300;
+  text-align: justify !important;
 }
 
 .component-ferramentas-card__button{

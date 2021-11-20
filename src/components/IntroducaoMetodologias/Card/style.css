@@ -29,6 +29,7 @@
   text-align: left;
   font-weight: 300;
   font-size: 17px;
+  text-align: justify !important;
 }
 
 .introducaometodologia-card__texto a {

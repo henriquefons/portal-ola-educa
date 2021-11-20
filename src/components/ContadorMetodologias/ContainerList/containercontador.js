@@ -16,7 +16,7 @@ const ContainerContador = () => (
         </Col>
         <Col m={5} s={0}>
           <Card title="Metodologias de apredizagem ativas" count="3" />
-          <Card title="Ferramentas tecnologicas digitais" count="8" />
+          <Card title="Ferramentas tecnológicas digitais" count="8" />
         </Col>
       </Row>
     </Container>

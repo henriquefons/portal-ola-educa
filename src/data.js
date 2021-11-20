@@ -21,7 +21,7 @@ const dataTools = [
       </p>,
     ],
     textSummary:
-      'Plickers é uma ferramenta inovadora que coleta imediatamente respostas de múltipla escolha de alunos, sem precisar que eles tenham dispositivos tecnologicos para votar',
+      'Plickers é uma ferramenta inovadora que coleta imediatamente respostas de múltipla escolha de alunos, sem precisar que eles tenham dispositivos tecnologicos para interagir.',
   },
   {
     id: 2,
@@ -65,7 +65,7 @@ const dataTools = [
       </p>,
     ],
     textSummary:
-      'O aplicativo Socrative auxilia o professor em sala de aula, possibilitando o engajamento e incentivando a participação do aluno dada',
+      'O aplicativo Socrative auxilia o professor em sala de aula, possibilitando o engajamento e incentivando a participação do aluno.',
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const dataTools = [
     methodology: 'Ensino Hibrido',
     color: '#165223',
     textSummary:
-      'As ferramentas G Site têm como objetivo facilitar o trabalho e a comunicação entre equipes. Algumas das principais ferramenas são listadas para o apoio à metodologia ativa',
+      'As ferramentas G Site têm como objetivo facilitar o trabalho e a comunicação entre equipes. Algumas das principais ferramenas são listadas para o apoio às metodologias ativas.',
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ const dataTools = [
     methodology: 'Ensino Hibrido',
     color: '#165223',
     textSummary:
-      'O Moodle é muito utilizado por professores e seus alunos como ferramenta de suporte ao Ensino a Distância (EaD)',
+      'O Moodle é muito utilizado por professores e seus alunos como ferramenta de suporte ao Ensino a Distância (EaD) e Ensino Hibrido.',
   },
   {
     id: 6,

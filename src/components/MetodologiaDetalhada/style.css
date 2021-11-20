@@ -37,6 +37,7 @@
   font-weight: 300;
   margin: 0;
   padding: 20px 0;
+  text-align: justify !important;
 }
 
 .metodologiadetalhadastexto__publicacao {

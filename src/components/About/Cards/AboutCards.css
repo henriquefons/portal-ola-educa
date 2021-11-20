@@ -27,3 +27,14 @@
   color: rgb(88, 88, 88);
   text-transform: lowercase;
 }
+
+.about-card__img {
+  margin-top: 15px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.about-card__img img {
+  border-radius: 50%;
+  width: 100%;
+}

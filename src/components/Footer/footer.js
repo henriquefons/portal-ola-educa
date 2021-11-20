@@ -28,8 +28,7 @@ const MyFooter = () => (
   >
     <h5 className="white-text">Olá Educa</h5>
     <p className="grey-text text-lighten-4">
-      Turbine a experiencia das metodologias ativas com ferramentas super
-      tecnologicas!
+      Turbine a experiencia das metodologias ativas com ferramentas digitais!
     </p>
   </Footer>
 );

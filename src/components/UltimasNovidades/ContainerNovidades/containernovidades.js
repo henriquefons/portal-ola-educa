@@ -6,7 +6,7 @@ import './style.css';
 
 const ContainerNovidades = () => (
   <section className="components-ultimasnovidades-containernovidades">
-    <h4 className="center-align">Ultimas novidades</h4>
+    <h4 className="center-align">Últimas novidades</h4>
     <Row>
       <Card
         url="https://i.postimg.cc/tgdrdHBH/download.png"

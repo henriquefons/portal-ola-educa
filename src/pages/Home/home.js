@@ -11,8 +11,8 @@ const Home = () => (
   <>
     <NavBar />
     <Header
-      title="DESCUBRA NOVAS TECNOLOGIAS E REVOLUCIONE AS TURMAS"
-      desc="Explore novas ferramentas tecnológicas digitais e turbine os resultados das metodologias de aprendizagem ativas"
+      title="DESCUBRA NOVAS TECNOLOGIAS E REVOLUCIONE AS SUAS AULAS"
+      desc="Explore novas ferramentas tecnológicas digitais e turbine os resultados com as metodologias de aprendizagem ativas"
     />
     <ContainerList />
     <ContainerContador />

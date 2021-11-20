@@ -29,7 +29,7 @@ const MetodologiaDetalhadaTexto = ({ ...children }) => {
           {children.texto.map((paragrafos) => paragrafos)}
 
           <p>
-            {`Para saber mais sobre as ferramentas tecnologicas que podem combinar com a ${children.titulo},   `}
+            {`Para saber mais sobre as ferramentas tecnológicas que podem combinar com a ${children.titulo},   `}
             <Button
               style={{
                 padding: '0',

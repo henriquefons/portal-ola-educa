@@ -18,7 +18,7 @@ const AplicacaoDetalhada = () => {
       <NavBar />
       <Header
         title="APLIQUE AS FERRAMENTAS TECNOLOGICAS NAS METODOLOGIAS ATIVAS"
-        desc="Conheça e entenda como funciona as ferramentas tecnologicas digitais em prol das metodologias de
+        desc="Conheça e entenda como funciona as ferramentas tecnológicas digitais em prol das metodologias de
       aprendizagem ativa!"
       />
       {methodology && (

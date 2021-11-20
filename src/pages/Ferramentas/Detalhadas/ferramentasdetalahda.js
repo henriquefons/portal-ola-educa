@@ -12,7 +12,7 @@ const FerramentasDetalhada = () => {
     <>
       <NavBar />
       <Header
-        title="CONHEÇA FERRAMENTAS PARA AUXILIAR EM METODOLOGIAS ATIVAS"
+        title="CONHEÇA FERRAMENTAS PARA AUXILIAR NA APLICAÇÃO DE METODOLOGIAS ATIVAS"
         desc="Tudo que você precisa saber para aplicar em suas metodologias"
       />
       {title === 'plickres' && (
