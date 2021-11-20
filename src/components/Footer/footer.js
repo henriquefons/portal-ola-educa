@@ -10,23 +10,18 @@ const MyFooter = () => (
       <ul>
         <li>
           <a className="grey-text text-lighten-3" href="#!">
-            Git do portal
+            Código fonte do Portal
           </a>
         </li>
         <li>
           <a className="grey-text text-lighten-3" href="#!">
-            Conheça o projeto
-          </a>
-        </li>
-        <li>
-          <a className="grey-text text-lighten-3" href="#!">
-            Blá blá blá
+            Acessar projeto do portal
           </a>
         </li>
       </ul>
     }
     moreLinks={
-      <a className="grey-text text-lighten-4 right" href="#!">
+      <a className="grey-text text-lighten-4 right" href="/sobre">
         Sobre
       </a>
     }
