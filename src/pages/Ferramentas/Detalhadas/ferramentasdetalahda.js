@@ -17,8 +17,8 @@ const FerramentasDetalhada = () => {
       />
       {title === 'plickres' && (
         <FerramentasDetalhadaTexto
-          title="Plickes"
-          titulo="Plickes: desafie seus alunos!"
+          title="Plickers"
+          titulo="Plickers: desafie seus alunos!"
           texto={[
             <p>
               Plickers é uma ferramenta revolucionária que coleta imediatamente

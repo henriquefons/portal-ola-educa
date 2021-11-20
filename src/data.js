@@ -5,7 +5,7 @@ const dataTools = [
     id: 1,
     img: 'https://i.postimg.cc/PqqgqJtR/plickers.png',
     srcVideo: 'https://www.youtube.com/embed/-t6ZusJ1ZOs',
-    titleVideo: 'Plickes: aplique a metodologia Instrução em pares',
+    titleVideo: 'Plickers: aplique a metodologia Instrução em pares',
     authorVideo: 'Henrique Fonseca',
     public: 'Publicado em 27 de janeiro de 2021',
     title: 'Plickers',
