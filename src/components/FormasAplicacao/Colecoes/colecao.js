@@ -20,7 +20,6 @@ const Colecoes = () => {
   const [values, setValues] = useState(initialSearchAplication);
 
   const filterFataTools = (name, value) => {
-    console.log(name, value);
     const dataFilter = dataTools.filter((tool) =>
       tool[name].toLowerCase().includes(value.toLowerCase()),
     );
